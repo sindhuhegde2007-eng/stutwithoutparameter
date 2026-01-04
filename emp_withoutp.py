@@ -1,18 +1,19 @@
 import sys
 
-if len(sys.argv) == 4:
+# With parameters
+if len(sys.argv) == 5:
     employee_name = sys.argv[1]
     employee_id = sys.argv[2]
     department = sys.argv[3]
     salary = float(sys.argv[4])
-
 else:
+    # Without parameters (default)
     employee_name = "Sindhu"
     employee_id = "1001"
     department = "IT"
     salary = 80000
-    grade="A"
 
+# Salary grade logic
 if salary >= 80000:
     grade = "Grade A"
 elif salary >= 60000:
@@ -24,6 +25,7 @@ elif salary >= 25000:
 else:
     grade = "Grade E"
 
+# Output (NO ₹ SYMBOL)
 print("Employee Details")
 print("----------------")
 print("Name       :", employee_name)
