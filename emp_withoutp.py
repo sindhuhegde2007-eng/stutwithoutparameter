@@ -11,6 +11,7 @@ else:
     employee_id = "1001"
     department = "IT"
     salary = 80000
+    grade="A"
 
 if salary >= 80000:
     grade = "Grade A"
