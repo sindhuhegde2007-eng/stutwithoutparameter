@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.argv) == 5:
+if len(sys.argv) == 4:
     employee_name = sys.argv[1]
     employee_id = sys.argv[2]
     department = sys.argv[3]
